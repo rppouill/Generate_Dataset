@@ -1,0 +1,36 @@
+{
+    "Camera": [
+        {
+            "name"              : "<name placeholder>",
+            "type"              : "camera",
+            "resolution"        : [30, 30],
+            "camera_folder" :   "<camera_folder placeholder>",
+            "target"            : ["FPGA"] 
+
+
+
+        }
+    ],
+
+    "Blender": [
+        {
+            "input_path"    : "<input_blender placeholder>",
+
+            "resolution_x"  : 640,
+            "resolution_y"  : 480,
+            "frame"         : 100,
+            "color_mode"    : "BW",
+            "fps"           : 30,
+            
+            "camera"        : "<name placeholder>",
+            "position"      : [0, 0, 0.3],
+            "rotation"      : [0, 0, 0],
+            
+            "output_folder" : "<output_blender placeholder>"
+
+        }
+    ]
+
+    
+
+}
