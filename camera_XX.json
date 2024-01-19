@@ -1,7 +1,6 @@
 {
     "Camera": [
         {
-            "name"              : "<name placeholder>",
             "type"              : "camera",
             "resolution"        : [30, 30],
             "camera_folder" :   "<camera_folder placeholder>",
@@ -23,10 +22,9 @@
             "fps"           : 30,
             
             "camera"        : "<name placeholder>",
-            "position"      : [0, 0, 0.3],
-            "rotation"      : [0, 0, 0],
+
             
-            "output_folder" : "<output_blender placeholder>"
+            "output_blender" : "<output_blender placeholder>"
 
         }
     ]

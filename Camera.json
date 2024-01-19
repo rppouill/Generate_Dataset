@@ -1,0 +1,34 @@
+{
+    "Camera": [
+        {
+            "type"              : "camera",
+            "resolution"        : [30, 30],
+            "camera_folder" :   "./test/",
+            "target"            : ["FPGA"] 
+
+
+
+        }
+    ],
+
+    "Blender": [
+        {
+            "input_path"    : "./ImageGenerator/Blender/Environment/Office.blend",
+
+            "resolution_x"  : 640,
+            "resolution_y"  : 480,
+            "frame"         : 100,
+            "color_mode"    : "BW",
+            "fps"           : 30,
+            
+            "camera"        : "",
+
+            
+            "output_blender" : "./test/"
+
+        }
+    ]
+
+    
+
+}

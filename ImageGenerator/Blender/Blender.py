@@ -27,6 +27,9 @@ class Blender_Render():
         self.scene.render.resolution_y = params["resolution_y"]
         self.scene.render.image_settings.color_mode = params["color_mode"]
 
+
+            
+
         self.exclude = params["exclude"]
 
         print(f'Scene: {self.scene}')
