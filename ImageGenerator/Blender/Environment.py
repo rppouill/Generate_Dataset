@@ -3,7 +3,7 @@ import logging as log
 import os
 import sys
 from tqdm import tqdm
-
+import numpy as np
 
 from TqdmToLogger import TqdmHandler
 
@@ -57,6 +57,7 @@ class Environment():
             log.debug(f"Actor: {ob.name}")
 
         self.camera_list = {}
+        self.distance = {}
         # Get the camera
         for ob in bpy.data.collections['Cameras'].objects:
             self.camera_list[ob.name] = Blender_Camera(self.context,ob,
@@ -64,10 +65,63 @@ class Environment():
                                                        output_folder = params['output_blender'],                                                       
                                                        res_ratio = 1, 
                                                        log_level = log_level)
+            self.distance[ob.name] = np.zeros(self.scene.frame_end)
+
             log.debug(f"Camera: {ob.name}")
         
-        self.scenario(params["positions"], params["rotations"])
-    
+        self._getKp()
+        self._path2kp(params["keypoints_path"])
+        log.debug(f"Type params: {type(params)}")
+        log.debug(f"params rotation: {params}")
+        self._compute_Rotation(params["keypoints_path"], params["rotations"])
+        log.debug(f"Path: {self.path_kp}")
+        for key in self.path_kp.keys():
+            log.debug(f"Scale {key}: {params['scale'][key]}")
+            log.debug(f"Path {key}: {self.path_kp[key]}")
+            for i in range(len(self.path_kp[key])):
+                log.debug(f"{self.path_kp[key][i][2]} + {params['scale'][key]}")
+                self.path_kp[key][i][2] = self.path_kp[key][i][2] + params["scale"][key]
+                log.debug(f"Path: {self.path_kp[key][i]}")
+        self.scenario(self.path_kp, self.path_rotation)
+
+    # _getKp
+    # @param None
+    # @return None
+    # @description: Retrieves collection of keypoints from the environment
+    def _getKp(self):
+        self.kp_position = {}
+        self.kp_rotation = {}
+        for ob in bpy.data.collections['keypoints'].objects:
+            self.kp_position[ob.name] = list(ob.location)
+            self.kp_rotation[ob.name] = list(ob.rotation_euler)
+
+    # _path2kp
+    # @param path: path to follow
+    # @return None
+    # @description: Converts the path to a list of keypoints
+    def _path2kp(self,path):
+        self.path_kp = {}
+        for key, value in path.items():
+            log.debug(f"Key: {key}")
+            self.path_kp[key] = []
+            for position in value:
+                self.path_kp[key].append(self.kp_position[f"kp.{position:03d}"].copy())
+                log.debug(f"Position {key}: {self.path_kp[key]}")
+
+    # _compute_Rotation
+    # @param path: path to follow
+    # @return None
+    # @description: Computes the rotation between keypoints
+    def _compute_Rotation(self,path, params_rotations):
+        self.path_rotation = {}
+        for key, value in path.items():
+            self.path_rotation[key] = []
+            for position in value:
+                self.path_rotation[key].append([params_rotations[key][0], params_rotations[key][1], self.kp_rotation[f"kp.{position:03d}"][2]])
+
+        
+
+
     def _using_GPU(self):
         log.info("Using GPU")
         self.scene.render.engine = 'CYCLES'
@@ -108,7 +162,7 @@ class Environment():
             frame_partition = floor(self.scene.frame_end/len(values_position))
             log.debug(f"Key: {key_position}")
             log.debug(f"Actor: {self.actors[key_position]}")
-            for i,(position,rotation) in enumerate(zip(values_position,values_rotation)):
+            for i,(position,rotation) in enumerate(zip(values_position, values_rotation)):
                 log.debug(f"Position: {position}")
                 log.debug(f"Rotation: {rotation}")
                 self.actors[key_position].location = position
@@ -129,7 +183,7 @@ class Environment():
     def generate_all_camera(self,frame,distance = None, ocultation = False):
         for camera in self.camera_list.keys():
             self.__call__(camera,frame,distance,ocultation)         
-    def generate_all_frames(self, camera, output_folder = None, distance = None, ocultation = False):
+    def generate_all_frames(self, camera, output_folder = None, ocultation = False):
         pbar = log.getLogger()
         pbar.info(f"Camera: {camera}")
         handler = TqdmHandler()
@@ -137,9 +191,11 @@ class Environment():
         for frame in tqdm(range(self.scene.frame_end)):
             self.__call__(camera = camera,
                             frame = frame,
-                            distance = distance,
+                            distance = self.distance[camera],
                             ocultation = ocultation)
             pbar.addHandler(handler)
+
+        np.savetxt(f'{camera}', self.distance[camera])
     def generate_all(self,  distance = None, ocultation = False):
         pbar = log.getLogger()
         for camera in self.camera_list.keys():

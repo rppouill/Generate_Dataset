@@ -36,6 +36,8 @@ def json_load(filename,scenario):
             blender_environment[key] = value
         blender_environment["positions"] = scenario["positions"]
         blender_environment["rotations"] = scenario["rotations"]
+        blender_environment["keypoints_graph"] = scenario["keypoints_graph"]
+        blender_environment["scale"] = scenario["scale"]
 
 
 
@@ -48,7 +50,7 @@ def parser():
     parser.add_argument('--json'          , '-j', type=str, default='camera_XX.json', help='json file')
 
     parser.add_argument('--input_blender' , '-b', type=str, default=None, help='input blender file (default: None')
-    parser.add_argument('--output_blender', '-i', type=str, default=None, help='input folder (default: None)')    
+    parser.add_argument('--output_blender', '-i', type=str, default='./test', help='input folder (default: None)')    
     parser.add_argument('--scenario'      , '-s', type=str, default=None, help='scenario (default: None)')
     
     parser.add_argument('--frame', type=int, default=0, help='Frame')

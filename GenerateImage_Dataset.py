@@ -35,26 +35,40 @@ def main(args):
     _,params = json_load('Camera.json', scenario)
     params["exclude"] = scenario["exclude"]
     params["GPU"] = args.gpu
+    import networkx as nx
+
+    G = nx.Graph(params["keypoints_graph"])
+    params["keypoints_path"] = {}
+    for key, value in params['positions'].items():
+        params["keypoints_path"][key] = []
+        for position in value:
+            # Concat list
+            params["keypoints_path"][key] += nx.shortest_path(G,source=position[0],target=position[1])
+ 
 
     log.debug(f"params: {params}")
+    log.info(params["keypoints_path"])  
 
     blender_render = Environment(input_environment,params, log_level=log.INFO)
-    
-    #blender_render.generate_all(ocultation=args.occultation)
-    distance_Cam005 = np.ones(blender_render.scene.frame_end) * 5
-    distance_Cam007 = np.ones(blender_render.scene.frame_end) * 5
 
-    blender_render.generate_all(distance = distance_Cam005, ocultation=args.occultation)
+    #blender_render.generate_all(distance = np.zeros(blender_render.scene.frame_end), ocultation = args.occultation)
+    blender_render.generate_all_frames('Caméra.005', output_folder = args.output_blender, ocultation = args.occultation)
+    blender_render.generate_all_frames('Caméra.007', output_folder = args.output_blender, ocultation = args.occultation)
 
-    #blender_render.__call__(camera = 'Caméra.005', frame = 47, distance = distance_Cam005, ocultation=args.occultation)
-    #blender_render.generate_all_frames(camera = 'Caméra.005', output_folder = args.output_blender, ocultation=args.occultation, distance = distance_Cam005)
-    #blender_render.generate_all_frames(camera = 'Caméra.007', output_folder = args.output_blender, ocultation=args.occultation, distance = distance_Cam007)
+    np.savetxt(os.path.join(args.output_blender,'Caméra.005.txt'),blender_render.distance['Caméra.005'])
+    np.savetxt(os.path.join(args.output_blender,'Caméra.007.txt'),blender_render.distance['Caméra.007'])
+
+    viewer_Camera(args.output_blender, 'Caméra.007')
+    #import matplotlib.pyplot as plt
+    #G = nx.Graph(params["keypoints_graph"])
+    #pos = nx.spring_layout(G)
+    #nx.draw(G,pos,with_labels=True)
 #
-    #np.savetxt(os.path.join(args.output_blender,'Caméra.005.txt'),distance_Cam005)
-    #np.savetxt(os.path.join(args.output_blender,'Caméra.007.txt'),distance_Cam007)
-
-    
-
+    #shortest_path = nx.shortest_path(G,source=1,target=6)
+    #log.info(f"Shortest path: {shortest_path}")
+#
+    #nx.draw_networkx_nodes(G,pos,nodelist=shortest_path,node_color='r')
+    #plt.show()
     
 
 
@@ -62,15 +76,15 @@ def viewer_Camera(path,folder):
     import cv2
     import matplotlib.pyplot as plt
 
-    distance = np.loadtxt(os.path.join(path,f'{folder}.txt'))
-    log.info(f"Distance shape: {distance.shape}")
-    plt.plot(distance)
-    plt.show()
+    #distance = np.loadtxt(os.path.join(path,f'{folder}.txt'))
+    #log.info(f"Distance shape: {distance.shape}")
+    #plt.plot(distance)
+    #plt.show()
 
     for i,file in enumerate(sorted(os.listdir(os.path.join(path,folder)))):
         log.info(os.path.join(path,folder,file))
         img = cv2.imread(os.path.join(path,folder,file))
-        cv2.putText(img, f"{distance[i]:.2f}", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
+        #cv2.putText(img, f"{distance[i]:.2f}", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
         cv2.imshow('image',img)
         key = cv2.waitKey(100)
         if key == ord('q'):
@@ -87,10 +101,11 @@ if __name__ == '__main__':
     log.basicConfig(level=args.verbose)
     logger = log.getLogger(__name__)
 
+
+    fmt =  fmt='%(asctime)s [%(process)d] %(filename)s:%(lineno)d %(levelname)s - %(message)s',
     coloredlogs.install(level=args.verbose, logger=logger)
 
     main(args)
-    viewer_Camera(args.output_blender,'Caméra.005')
 
     os.close(fd)
     os.dup(old)
