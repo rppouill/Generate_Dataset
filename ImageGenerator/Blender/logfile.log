@@ -1,0 +1,457 @@
+Read blend: ./Environment/S-corridor.blend
+Fra:5 Mem:187.56M (Peak 290.71M) | Time:00:00.67 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | thintubes
+Fra:5 Mem:187.56M (Peak 290.71M) | Time:00:00.67 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | metalpiece
+Fra:5 Mem:187.62M (Peak 290.71M) | Time:00:00.67 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | Cube
+Fra:5 Mem:239.36M (Peak 458.32M) | Time:00:00.89 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Initializing
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:00.89 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Waiting for render to start
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:00.89 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Loading render kernels (may take a few minutes the first time)
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:00.89 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Updating Scene
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:00.89 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Updating Shaders
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.89 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Procedurals
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.89 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Background
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.89 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Camera
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.89 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Meshes Flags
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.89 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Objects
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.89 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Objects | Copying Transformations to device
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.89 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Objects | Applying Static Transformations
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.89 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Particle Systems
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.89 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Particle Systems | Copying Particles to device
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.89 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Meshes
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.91 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Mesh | Computing attributes
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.91 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Mesh | Copying Attributes to device
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.91 | Mem:0.02M, Peak:0.02M | Scene, RenderLayer | Updating Scene BVH | Building
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.91 | Mem:0.02M, Peak:0.02M | Scene, RenderLayer | Updating Scene BVH | Building BVH
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.92 | Mem:91.63M, Peak:91.63M | Scene, RenderLayer | Updating Scene BVH | Building BVH 0%
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.95 | Mem:109.63M, Peak:173.63M | Scene, RenderLayer | Updating Scene BVH | Copying BVH to device
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.95 | Mem:109.63M, Peak:173.63M | Scene, RenderLayer | Updating Mesh | Computing normals
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.98 | Mem:109.63M, Peak:173.63M | Scene, RenderLayer | Updating Mesh | Copying Mesh to device
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.98 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Objects Flags
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.98 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Primitive Offsets
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.98 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Images
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.98 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Camera Volume
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.98 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Lookup Tables
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.98 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Lights
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.98 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Lights | Computing distribution
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.98 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Integrator
+Fra:5 Mem:236.21M (Peak 458.32M) | Time:00:00.98 | Mem:215.04M, Peak:215.04M | Scene, RenderLayer | Updating Film
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:00.98 | Mem:215.04M, Peak:215.04M | Scene, RenderLayer | Updating Lookup Tables
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:00.98 | Mem:215.05M, Peak:215.05M | Scene, RenderLayer | Updating Baking
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:00.98 | Mem:215.05M, Peak:215.05M | Scene, RenderLayer | Updating Device | Writing constant memory
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:00.98 | Mem:215.05M, Peak:215.05M | Scene, RenderLayer | Sample 0/128
+Fra:5 Mem:242.17M (Peak 458.32M) | Time:00:01.03 | Remaining:00:06.00 | Mem:220.91M, Peak:220.91M | Scene, RenderLayer | Sample 1/128
+Fra:5 Mem:248.03M (Peak 458.32M) | Time:00:07.50 | Mem:220.91M, Peak:220.91M | Scene, RenderLayer | Sample 128/128
+Fra:5 Mem:248.03M (Peak 458.32M) | Time:00:07.50 | Mem:220.91M, Peak:220.91M | Scene, RenderLayer | Finished
+Saved: './toto_pipo/Camera.01/5.png'
+ Time: 00:07.56 (Saving: 00:00.04)
+
+0.91M, Peak:220.91M | Scene, RenderLayer | Finished
+Saved: './output/Camera.01/5.png'
+ Time: 00:07.97 (Saving: 00:00.04)
+
+t | thintubes
+Fra:5 Mem:187.58M (Peak 290.64M) | Time:00:00.68 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | metalpiece
+Fra:5 Mem:193.62M (Peak 290.64M) | Time:00:00.68 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | Torus
+Fra:5 Mem:239.36M (Peak 458.32M) | Time:00:00.88 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Initializing
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:00.89 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Waiting for render to start
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:00.89 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Loading render kernels (may take a few minutes the first time)
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:00.89 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Updating Scene
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:00.89 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Updating Shaders
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.89 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Procedurals
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.89 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Background
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.89 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Camera
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.89 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Meshes Flags
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.89 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Objects
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.89 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Objects | Copying Transformations to device
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.89 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Objects | Applying Static Transformations
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.89 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Particle Systems
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.89 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Particle Systems | Copying Particles to device
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.89 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Meshes
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.90 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Mesh | Computing attributes
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.90 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Mesh | Copying Attributes to device
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.91 | Mem:0.02M, Peak:0.02M | Scene, RenderLayer | Updating Scene BVH | Building
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.91 | Mem:0.02M, Peak:0.02M | Scene, RenderLayer | Updating Scene BVH | Building BVH
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.91 | Mem:91.63M, Peak:91.63M | Scene, RenderLayer | Updating Scene BVH | Building BVH 0%
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.94 | Mem:109.63M, Peak:173.63M | Scene, RenderLayer | Updating Scene BVH | Copying BVH to device
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.94 | Mem:109.63M, Peak:173.63M | Scene, RenderLayer | Updating Mesh | Computing normals
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.96 | Mem:109.63M, Peak:173.63M | Scene, RenderLayer | Updating Mesh | Copying Mesh to device
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.96 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Objects Flags
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.96 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Primitive Offsets
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.96 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Images
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.96 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Camera Volume
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.96 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Lookup Tables
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.96 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Lights
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.96 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Lights | Computing distribution
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.96 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Integrator
+Fra:5 Mem:236.21M (Peak 458.32M) | Time:00:00.96 | Mem:215.04M, Peak:215.04M | Scene, RenderLayer | Updating Film
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:00.96 | Mem:215.04M, Peak:215.04M | Scene, RenderLayer | Updating Lookup Tables
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:00.96 | Mem:215.05M, Peak:215.05M | Scene, RenderLayer | Updating Baking
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:00.96 | Mem:215.05M, Peak:215.05M | Scene, RenderLayer | Updating Device | Writing constant memory
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:00.96 | Mem:215.05M, Peak:215.05M | Scene, RenderLayer | Sample 0/128
+Fra:5 Mem:242.17M (Peak 458.32M) | Time:00:01.03 | Remaining:00:09.24 | Mem:220.91M, Peak:220.91M | Scene, RenderLayer | Sample 1/128
+Fra:5 Mem:248.03M (Peak 458.32M) | Time:00:10.75 | Mem:220.91M, Peak:220.91M | Scene, RenderLayer | Sample 128/128
+Fra:5 Mem:248.03M (Peak 458.32M) | Time:00:10.75 | Mem:220.91M, Peak:220.91M | Scene, RenderLayer | Finished
+Saved: './output/Camera.02/Camera.02/5.png'
+ Time: 00:10.77 (Saving: 00:00.01)
+
+Fra:5 Mem:187.58M (Peak 290.73M) | Time:00:00.65 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | thintubes
+Fra:5 Mem:187.64M (Peak 290.73M) | Time:00:00.65 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | metalpiece
+Fra:5 Mem:187.64M (Peak 290.73M) | Time:00:00.65 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | Cube
+Fra:5 Mem:239.36M (Peak 458.32M) | Time:00:00.89 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Initializing
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:00.89 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Waiting for render to start
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:00.89 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Loading render kernels (may take a few minutes the first time)
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:00.89 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Updating Scene
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:00.89 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Updating Shaders
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.89 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Procedurals
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.89 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Background
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.89 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Camera
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.89 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Meshes Flags
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.89 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Objects
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.89 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Objects | Copying Transformations to device
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.89 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Objects | Applying Static Transformations
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.90 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Particle Systems
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.90 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Particle Systems | Copying Particles to device
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.90 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Meshes
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.91 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Mesh | Computing attributes
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.91 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Mesh | Copying Attributes to device
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.91 | Mem:0.02M, Peak:0.02M | Scene, RenderLayer | Updating Scene BVH | Building
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.91 | Mem:0.02M, Peak:0.02M | Scene, RenderLayer | Updating Scene BVH | Building BVH
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.92 | Mem:91.63M, Peak:91.63M | Scene, RenderLayer | Updating Scene BVH | Building BVH 0%
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.95 | Mem:109.63M, Peak:173.63M | Scene, RenderLayer | Updating Scene BVH | Copying BVH to device
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.95 | Mem:109.63M, Peak:173.63M | Scene, RenderLayer | Updating Mesh | Computing normals
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.97 | Mem:109.63M, Peak:173.63M | Scene, RenderLayer | Updating Mesh | Copying Mesh to device
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.97 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Objects Flags
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.97 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Primitive Offsets
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.97 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Images
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.97 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Camera Volume
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.97 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Lookup Tables
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.97 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Lights
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.97 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Lights | Computing distribution
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.97 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Integrator
+Fra:5 Mem:236.21M (Peak 458.32M) | Time:00:00.97 | Mem:215.04M, Peak:215.04M | Scene, RenderLayer | Updating Film
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:00.97 | Mem:215.04M, Peak:215.04M | Scene, RenderLayer | Updating Lookup Tables
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:00.97 | Mem:215.05M, Peak:215.05M | Scene, RenderLayer | Updating Baking
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:00.97 | Mem:215.05M, Peak:215.05M | Scene, RenderLayer | Updating Device | Writing constant memory
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:00.97 | Mem:215.05M, Peak:215.05M | Scene, RenderLayer | Sample 0/128
+Fra:5 Mem:242.17M (Peak 458.32M) | Time:00:01.05 | Remaining:00:10.58 | Mem:220.91M, Peak:220.91M | Scene, RenderLayer | Sample 1/128
+Fra:5 Mem:248.03M (Peak 458.32M) | Time:00:12.44 | Mem:220.91M, Peak:220.91M | Scene, RenderLayer | Sample 128/128
+Fra:5 Mem:248.03M (Peak 458.32M) | Time:00:12.44 | Mem:220.91M, Peak:220.91M | Scene, RenderLayer | Finished
+Saved: './output/Camera.03/Camera.03/5.png'
+ Time: 00:12.46 (Saving: 00:00.01)
+
+Fra:5 Mem:187.58M (Peak 290.64M) | Time:00:00.58 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | thintubes
+Fra:5 Mem:187.64M (Peak 290.64M) | Time:00:00.58 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | metalpiece
+Fra:5 Mem:193.59M (Peak 290.64M) | Time:00:00.58 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | Cube
+Fra:5 Mem:239.36M (Peak 458.32M) | Time:00:00.75 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Initializing
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:00.75 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Waiting for render to start
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:00.75 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Loading render kernels (may take a few minutes the first time)
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:00.75 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Updating Scene
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:00.75 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Updating Shaders
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.75 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Procedurals
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.75 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Background
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.75 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Camera
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.75 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Meshes Flags
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.75 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Objects
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.75 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Objects | Copying Transformations to device
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.75 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Objects | Applying Static Transformations
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.76 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Particle Systems
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.76 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Particle Systems | Copying Particles to device
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.76 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Meshes
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.77 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Mesh | Computing attributes
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.77 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Mesh | Copying Attributes to device
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.77 | Mem:0.02M, Peak:0.02M | Scene, RenderLayer | Updating Scene BVH | Building
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.77 | Mem:0.02M, Peak:0.02M | Scene, RenderLayer | Updating Scene BVH | Building BVH
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.78 | Mem:91.63M, Peak:91.63M | Scene, RenderLayer | Updating Scene BVH | Building BVH 0%
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.81 | Mem:109.63M, Peak:173.63M | Scene, RenderLayer | Updating Scene BVH | Copying BVH to device
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.81 | Mem:109.63M, Peak:173.63M | Scene, RenderLayer | Updating Mesh | Computing normals
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.83 | Mem:109.63M, Peak:173.63M | Scene, RenderLayer | Updating Mesh | Copying Mesh to device
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.83 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Objects Flags
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.83 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Primitive Offsets
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.83 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Images
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.83 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Camera Volume
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.83 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Lookup Tables
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.83 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Lights
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.83 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Lights | Computing distribution
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.83 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Integrator
+Fra:5 Mem:236.21M (Peak 458.32M) | Time:00:00.83 | Mem:215.04M, Peak:215.04M | Scene, RenderLayer | Updating Film
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:00.83 | Mem:215.04M, Peak:215.04M | Scene, RenderLayer | Updating Lookup Tables
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:00.83 | Mem:215.05M, Peak:215.05M | Scene, RenderLayer | Updating Baking
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:00.83 | Mem:215.05M, Peak:215.05M | Scene, RenderLayer | Updating Device | Writing constant memory
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:00.83 | Mem:215.05M, Peak:215.05M | Scene, RenderLayer | Sample 0/128
+Fra:5 Mem:242.17M (Peak 458.32M) | Time:00:00.92 | Remaining:00:11.21 | Mem:220.91M, Peak:220.91M | Scene, RenderLayer | Sample 1/128
+Fra:5 Mem:248.03M (Peak 458.32M) | Time:00:13.14 | Mem:220.91M, Peak:220.91M | Scene, RenderLayer | Sample 128/128
+Fra:5 Mem:248.03M (Peak 458.32M) | Time:00:13.14 | Mem:220.91M, Peak:220.91M | Scene, RenderLayer | Finished
+Saved: './output/Camera.04/Camera.04/5.png'
+ Time: 00:13.16 (Saving: 00:00.01)
+
+Fra:5 Mem:187.58M (Peak 290.64M) | Time:00:01.03 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | thintubes
+Fra:5 Mem:187.58M (Peak 290.64M) | Time:00:01.03 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | metalpiece
+Fra:5 Mem:187.64M (Peak 290.64M) | Time:00:01.03 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | Cube
+Fra:5 Mem:239.36M (Peak 458.32M) | Time:00:01.25 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Initializing
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:01.25 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Waiting for render to start
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:01.25 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Loading render kernels (may take a few minutes the first time)
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:01.25 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Updating Scene
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:01.25 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Updating Shaders
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:01.25 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Procedurals
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:01.25 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Background
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:01.25 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Camera
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:01.25 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Meshes Flags
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:01.25 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Objects
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:01.25 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Objects | Copying Transformations to device
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:01.25 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Objects | Applying Static Transformations
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:01.25 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Particle Systems
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:01.25 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Particle Systems | Copying Particles to device
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:01.25 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Meshes
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:01.27 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Mesh | Computing attributes
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:01.27 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Mesh | Copying Attributes to device
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:01.27 | Mem:0.02M, Peak:0.02M | Scene, RenderLayer | Updating Scene BVH | Building
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:01.27 | Mem:0.02M, Peak:0.02M | Scene, RenderLayer | Updating Scene BVH | Building BVH
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:01.27 | Mem:91.63M, Peak:91.63M | Scene, RenderLayer | Updating Scene BVH | Building BVH 0%
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:01.31 | Mem:109.63M, Peak:173.63M | Scene, RenderLayer | Updating Scene BVH | Copying BVH to device
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:01.31 | Mem:109.63M, Peak:173.63M | Scene, RenderLayer | Updating Mesh | Computing normals
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:01.33 | Mem:109.63M, Peak:173.63M | Scene, RenderLayer | Updating Mesh | Copying Mesh to device
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:01.33 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Objects Flags
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:01.33 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Primitive Offsets
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:01.33 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Images
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:01.33 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Camera Volume
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:01.33 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Lookup Tables
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:01.33 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Lights
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:01.33 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Lights | Computing distribution
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:01.33 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Integrator
+Fra:5 Mem:236.21M (Peak 458.32M) | Time:00:01.33 | Mem:215.04M, Peak:215.04M | Scene, RenderLayer | Updating Film
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:01.33 | Mem:215.04M, Peak:215.04M | Scene, RenderLayer | Updating Lookup Tables
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:01.33 | Mem:215.05M, Peak:215.05M | Scene, RenderLayer | Updating Baking
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:01.33 | Mem:215.05M, Peak:215.05M | Scene, RenderLayer | Updating Device | Writing constant memory
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:01.33 | Mem:215.05M, Peak:215.05M | Scene, RenderLayer | Sample 0/128
+Fra:5 Mem:242.17M (Peak 458.32M) | Time:00:01.42 | Remaining:00:11.12 | Mem:220.91M, Peak:220.91M | Scene, RenderLayer | Sample 1/128
+Fra:5 Mem:248.03M (Peak 458.32M) | Time:00:13.11 | Mem:220.91M, Peak:220.91M | Scene, RenderLayer | Sample 128/128
+Fra:5 Mem:248.03M (Peak 458.32M) | Time:00:13.11 | Mem:220.91M, Peak:220.91M | Scene, RenderLayer | Finished
+Saved: './output/Camera.05/Camera.05/5.png'
+ Time: 00:13.14 (Saving: 00:00.01)
+
+Error: Python: Traceback (most recent call last):
+  File "/home/ropouillard/Envs/Simulateur/lib/python3.10/site-packages/bpy/3.5/scripts/addons/cycles/__init__.py", line 57, in update
+    def update(self, data, depsgraph):
+KeyboardInterrupt
+Location: /home/ropouillard/Envs/Simulateur/lib/python3.10/site-packages/bpy/3.5/scripts/modules/bpy/ops.py:113
+458.32M) | Time:00:00.87 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Initializing
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:00.87 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Waiting for render to start
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:00.87 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Loading render kernels (may take a few minutes the first time)
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:00.87 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Updating Scene
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:00.87 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Updating Shaders
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.87 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Procedurals
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.87 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Background
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.87 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Camera
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.87 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Meshes Flags
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.87 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Objects
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.87 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Objects | Copying Transformations to device
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.87 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Objects | Applying Static Transformations
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.87 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Particle Systems
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.87 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Particle Systems | Copying Particles to device
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.87 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Meshes
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.89 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Mesh | Computing attributes
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.89 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Mesh | Copying Attributes to device
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.89 | Mem:0.02M, Peak:0.02M | Scene, RenderLayer | Updating Scene BVH | Building
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.89 | Mem:0.02M, Peak:0.02M | Scene, RenderLayer | Updating Scene BVH | Building BVH
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.89 | Mem:91.63M, Peak:91.63M | Scene, RenderLayer | Updating Scene BVH | Building BVH 0%
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.93 | Mem:109.63M, Peak:173.63M | Scene, RenderLayer | Updating Scene BVH | Copying BVH to device
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.93 | Mem:109.63M, Peak:173.63M | Scene, RenderLayer | Updating Mesh | Computing normals
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.95 | Mem:109.63M, Peak:173.63M | Scene, RenderLayer | Updating Mesh | Copying Mesh to device
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.95 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Objects Flags
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.95 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Primitive Offsets
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.95 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Images
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.95 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Camera Volume
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.95 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Lookup Tables
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.95 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Lights
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.95 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Lights | Computing distribution
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.95 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Integrator
+Fra:5 Mem:236.21M (Peak 458.32M) | Time:00:00.95 | Mem:215.04M, Peak:215.04M | Scene, RenderLayer | Updating Film
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:00.95 | Mem:215.04M, Peak:215.04M | Scene, RenderLayer | Updating Lookup Tables
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:00.95 | Mem:215.05M, Peak:215.05M | Scene, RenderLayer | Updating Baking
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:00.95 | Mem:215.05M, Peak:215.05M | Scene, RenderLayer | Updating Device | Writing constant memory
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:00.95 | Mem:215.05M, Peak:215.05M | Scene, RenderLayer | Sample 0/128
+Fra:5 Mem:242.17M (Peak 458.32M) | Time:00:01.02 | Remaining:00:09.89 | Mem:220.91M, Peak:220.91M | Scene, RenderLayer | Sample 1/128
+Fra:5 Mem:248.03M (Peak 458.32M) | Time:00:11.40 | Mem:220.91M, Peak:220.91M | Scene, RenderLayer | Sample 128/128
+Fra:5 Mem:248.03M (Peak 458.32M) | Time:00:11.40 | Mem:220.91M, Peak:220.91M | Scene, RenderLayer | Finished
+Saved: './output/Camera.06/5.png'
+ Time: 00:11.43 (Saving: 00:00.02)
+
+Fra:5 Mem:187.58M (Peak 290.64M) | Time:00:00.57 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | thintubes
+Fra:5 Mem:187.64M (Peak 290.64M) | Time:00:00.57 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | metalpiece
+Fra:5 Mem:193.59M (Peak 290.64M) | Time:00:00.57 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | Cube
+Fra:5 Mem:239.36M (Peak 458.32M) | Time:00:00.82 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Initializing
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:00.82 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Waiting for render to start
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:00.82 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Loading render kernels (may take a few minutes the first time)
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:00.82 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Updating Scene
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:00.82 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Updating Shaders
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.82 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Procedurals
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.82 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Background
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.82 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Camera
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.82 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Meshes Flags
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.82 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Objects
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.82 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Objects | Copying Transformations to device
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.82 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Objects | Applying Static Transformations
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.82 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Particle Systems
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.82 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Particle Systems | Copying Particles to device
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.82 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Meshes
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.84 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Mesh | Computing attributes
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.84 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Mesh | Copying Attributes to device
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.84 | Mem:0.02M, Peak:0.02M | Scene, RenderLayer | Updating Scene BVH | Building
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.84 | Mem:0.02M, Peak:0.02M | Scene, RenderLayer | Updating Scene BVH | Building BVH
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.84 | Mem:91.63M, Peak:91.63M | Scene, RenderLayer | Updating Scene BVH | Building BVH 0%
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.87 | Mem:109.63M, Peak:173.63M | Scene, RenderLayer | Updating Scene BVH | Copying BVH to device
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.87 | Mem:109.63M, Peak:173.63M | Scene, RenderLayer | Updating Mesh | Computing normals
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.89 | Mem:109.63M, Peak:173.63M | Scene, RenderLayer | Updating Mesh | Copying Mesh to device
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.89 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Objects Flags
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.89 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Primitive Offsets
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.89 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Images
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.89 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Camera Volume
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.89 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Lookup Tables
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.89 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Lights
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.89 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Lights | Computing distribution
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.89 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Integrator
+Fra:5 Mem:236.21M (Peak 458.32M) | Time:00:00.89 | Mem:215.04M, Peak:215.04M | Scene, RenderLayer | Updating Film
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:00.89 | Mem:215.04M, Peak:215.04M | Scene, RenderLayer | Updating Lookup Tables
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:00.89 | Mem:215.05M, Peak:215.05M | Scene, RenderLayer | Updating Baking
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:00.89 | Mem:215.05M, Peak:215.05M | Scene, RenderLayer | Updating Device | Writing constant memory
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:00.89 | Mem:215.05M, Peak:215.05M | Scene, RenderLayer | Sample 0/128
+Fra:5 Mem:242.17M (Peak 458.32M) | Time:00:00.98 | Remaining:00:11.13 | Mem:220.91M, Peak:220.91M | Scene, RenderLayer | Sample 1/128
+Fra:5 Mem:248.03M (Peak 458.32M) | Time:00:12.98 | Mem:220.91M, Peak:220.91M | Scene, RenderLayer | Sample 128/128
+Fra:5 Mem:248.03M (Peak 458.32M) | Time:00:12.98 | Mem:220.91M, Peak:220.91M | Scene, RenderLayer | Finished
+Saved: './output/Camera.07/5.png'
+ Time: 00:13.01 (Saving: 00:00.01)
+
+Fra:5 Mem:187.58M (Peak 290.73M) | Time:00:00.65 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | thintubes
+Fra:5 Mem:187.64M (Peak 290.73M) | Time:00:00.65 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | metalpiece
+Fra:5 Mem:193.59M (Peak 290.73M) | Time:00:00.65 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | Torus
+Fra:5 Mem:239.36M (Peak 458.32M) | Time:00:00.93 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Initializing
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:00.94 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Waiting for render to start
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:00.94 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Loading render kernels (may take a few minutes the first time)
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:00.94 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Updating Scene
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:00.94 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Updating Shaders
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.94 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Procedurals
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.94 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Background
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.94 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Camera
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.94 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Meshes Flags
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.94 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Objects
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.94 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Objects | Copying Transformations to device
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.94 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Objects | Applying Static Transformations
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.94 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Particle Systems
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.94 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Particle Systems | Copying Particles to device
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.94 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Meshes
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.95 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Mesh | Computing attributes
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.95 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Mesh | Copying Attributes to device
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.96 | Mem:0.02M, Peak:0.02M | Scene, RenderLayer | Updating Scene BVH | Building
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.96 | Mem:0.02M, Peak:0.02M | Scene, RenderLayer | Updating Scene BVH | Building BVH
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.96 | Mem:91.63M, Peak:91.63M | Scene, RenderLayer | Updating Scene BVH | Building BVH 0%
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.99 | Mem:109.63M, Peak:173.63M | Scene, RenderLayer | Updating Scene BVH | Copying BVH to device
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.99 | Mem:109.63M, Peak:173.63M | Scene, RenderLayer | Updating Mesh | Computing normals
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:01.01 | Mem:109.63M, Peak:173.63M | Scene, RenderLayer | Updating Mesh | Copying Mesh to device
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:01.01 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Objects Flags
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:01.01 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Primitive Offsets
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:01.01 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Images
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:01.01 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Camera Volume
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:01.01 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Lookup Tables
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:01.01 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Lights
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:01.01 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Lights | Computing distribution
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:01.01 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Integrator
+Fra:5 Mem:236.21M (Peak 458.32M) | Time:00:01.01 | Mem:215.04M, Peak:215.04M | Scene, RenderLayer | Updating Film
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:01.01 | Mem:215.04M, Peak:215.04M | Scene, RenderLayer | Updating Lookup Tables
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:01.01 | Mem:215.05M, Peak:215.05M | Scene, RenderLayer | Updating Baking
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:01.01 | Mem:215.05M, Peak:215.05M | Scene, RenderLayer | Updating Device | Writing constant memory
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:01.01 | Mem:215.05M, Peak:215.05M | Scene, RenderLayer | Sample 0/128
+Fra:5 Mem:242.17M (Peak 458.32M) | Time:00:01.09 | Remaining:00:09.79 | Mem:220.91M, Peak:220.91M | Scene, RenderLayer | Sample 1/128
+Fra:5 Mem:248.03M (Peak 458.32M) | Time:00:11.29 | Mem:220.91M, Peak:220.91M | Scene, RenderLayer | Sample 128/128
+Fra:5 Mem:248.03M (Peak 458.32M) | Time:00:11.29 | Mem:220.91M, Peak:220.91M | Scene, RenderLayer | Finished
+Saved: './output/Camera.08/5.png'
+ Time: 00:11.32 (Saving: 00:00.01)
+
+Fra:5 Mem:187.58M (Peak 290.64M) | Time:00:00.59 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | thintubes
+Fra:5 Mem:187.64M (Peak 290.64M) | Time:00:00.59 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | metalpiece
+Fra:5 Mem:193.59M (Peak 290.64M) | Time:00:00.59 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | Torus
+Fra:5 Mem:239.36M (Peak 458.32M) | Time:00:00.80 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Initializing
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:00.80 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Waiting for render to start
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:00.80 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Loading render kernels (may take a few minutes the first time)
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:00.80 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Updating Scene
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:00.80 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Updating Shaders
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.80 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Procedurals
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.80 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Background
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.80 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Camera
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.80 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Meshes Flags
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.80 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Objects
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.80 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Objects | Copying Transformations to device
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.80 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Objects | Applying Static Transformations
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.80 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Particle Systems
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.80 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Particle Systems | Copying Particles to device
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.80 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Meshes
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.82 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Mesh | Computing attributes
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.82 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Mesh | Copying Attributes to device
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.82 | Mem:0.02M, Peak:0.02M | Scene, RenderLayer | Updating Scene BVH | Building
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.82 | Mem:0.02M, Peak:0.02M | Scene, RenderLayer | Updating Scene BVH | Building BVH
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.82 | Mem:91.63M, Peak:91.63M | Scene, RenderLayer | Updating Scene BVH | Building BVH 0%
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.86 | Mem:109.63M, Peak:173.63M | Scene, RenderLayer | Updating Scene BVH | Copying BVH to device
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.86 | Mem:109.63M, Peak:173.63M | Scene, RenderLayer | Updating Mesh | Computing normals
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.88 | Mem:109.63M, Peak:173.63M | Scene, RenderLayer | Updating Mesh | Copying Mesh to device
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.88 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Objects Flags
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.88 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Primitive Offsets
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.88 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Images
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.88 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Camera Volume
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.88 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Lookup Tables
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.88 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Lights
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.88 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Lights | Computing distribution
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.88 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Integrator
+Fra:5 Mem:236.21M (Peak 458.32M) | Time:00:00.88 | Mem:215.04M, Peak:215.04M | Scene, RenderLayer | Updating Film
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:00.88 | Mem:215.04M, Peak:215.04M | Scene, RenderLayer | Updating Lookup Tables
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:00.88 | Mem:215.05M, Peak:215.05M | Scene, RenderLayer | Updating Baking
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:00.88 | Mem:215.05M, Peak:215.05M | Scene, RenderLayer | Updating Device | Writing constant memory
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:00.88 | Mem:215.05M, Peak:215.05M | Scene, RenderLayer | Sample 0/128
+Fra:5 Mem:242.17M (Peak 458.32M) | Time:00:00.92 | Remaining:00:05.46 | Mem:220.91M, Peak:220.91M | Scene, RenderLayer | Sample 1/128
+Fra:5 Mem:248.03M (Peak 458.32M) | Time:00:06.83 | Mem:220.91M, Peak:220.91M | Scene, RenderLayer | Sample 128/128
+Fra:5 Mem:248.03M (Peak 458.32M) | Time:00:06.83 | Mem:220.91M, Peak:220.91M | Scene, RenderLayer | Finished
+Saved: './output/Camera.09/5.png'
+ Time: 00:06.85 (Saving: 00:00.01)
+
+Fra:5 Mem:187.58M (Peak 290.64M) | Time:00:00.68 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | thintubes
+Fra:5 Mem:187.64M (Peak 290.64M) | Time:00:00.68 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | metalpiece
+Fra:5 Mem:193.62M (Peak 290.64M) | Time:00:00.68 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | Torus
+Fra:5 Mem:239.36M (Peak 458.32M) | Time:00:00.85 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Initializing
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:00.86 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Waiting for render to start
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:00.86 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Loading render kernels (may take a few minutes the first time)
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:00.86 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Updating Scene
+Fra:5 Mem:107.43M (Peak 458.32M) | Time:00:00.86 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Updating Shaders
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.86 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Procedurals
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.86 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Background
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.86 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Camera
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.86 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Meshes Flags
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.86 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Objects
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.86 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Objects | Copying Transformations to device
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.86 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Objects | Applying Static Transformations
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.86 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Particle Systems
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.86 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Particle Systems | Copying Particles to device
+Fra:5 Mem:107.44M (Peak 458.32M) | Time:00:00.86 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Meshes
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.88 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Mesh | Computing attributes
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.88 | Mem:0.01M, Peak:0.01M | Scene, RenderLayer | Updating Mesh | Copying Attributes to device
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.88 | Mem:0.02M, Peak:0.02M | Scene, RenderLayer | Updating Scene BVH | Building
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.88 | Mem:0.02M, Peak:0.02M | Scene, RenderLayer | Updating Scene BVH | Building BVH
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.88 | Mem:91.63M, Peak:91.63M | Scene, RenderLayer | Updating Scene BVH | Building BVH 0%
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.92 | Mem:109.63M, Peak:173.63M | Scene, RenderLayer | Updating Scene BVH | Copying BVH to device
+Fra:5 Mem:130.80M (Peak 458.32M) | Time:00:00.92 | Mem:109.63M, Peak:173.63M | Scene, RenderLayer | Updating Mesh | Computing normals
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.94 | Mem:109.63M, Peak:173.63M | Scene, RenderLayer | Updating Mesh | Copying Mesh to device
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.94 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Objects Flags
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.94 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Primitive Offsets
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.94 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Images
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.94 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Camera Volume
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.94 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Lookup Tables
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.94 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Lights
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.94 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Lights | Computing distribution
+Fra:5 Mem:235.21M (Peak 458.32M) | Time:00:00.94 | Mem:214.04M, Peak:214.04M | Scene, RenderLayer | Updating Integrator
+Fra:5 Mem:236.21M (Peak 458.32M) | Time:00:00.94 | Mem:215.04M, Peak:215.04M | Scene, RenderLayer | Updating Film
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:00.94 | Mem:215.04M, Peak:215.04M | Scene, RenderLayer | Updating Lookup Tables
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:00.94 | Mem:215.05M, Peak:215.05M | Scene, RenderLayer | Updating Baking
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:00.94 | Mem:215.05M, Peak:215.05M | Scene, RenderLayer | Updating Device | Writing constant memory
+Fra:5 Mem:236.22M (Peak 458.32M) | Time:00:00.94 | Mem:215.05M, Peak:215.05M | Scene, RenderLayer | Sample 0/128
+Fra:5 Mem:242.17M (Peak 458.32M) | Time:00:01.01 | Remaining:00:09.60 | Mem:220.91M, Peak:220.91M | Scene, RenderLayer | Sample 1/128
+Fra:5 Mem:248.03M (Peak 458.32M) | Time:00:11.08 | Mem:220.91M, Peak:220.91M | Scene, RenderLayer | Sample 128/128
+Fra:5 Mem:248.03M (Peak 458.32M) | Time:00:11.08 | Mem:220.91M, Peak:220.91M | Scene, RenderLayer | Finished
+Saved: './output/Camera.10/5.png'
+ Time: 00:11.11 (Saving: 00:00.02)
+
