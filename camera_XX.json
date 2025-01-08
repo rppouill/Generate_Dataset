@@ -1,12 +1,11 @@
 {
     "Camera": [
         {
-            "name"              : "<name placeholder>",
             "type"              : "camera",
-            "resolution"        : [30, 30],
+            "size"              : "30,30",
             "camera_folder" :   "<camera_folder placeholder>",
             "target"            : ["FPGA"] 
-
+            
 
 
         }
@@ -16,18 +15,42 @@
         {
             "input_path"    : "<input_blender placeholder>",
 
-            "resolution_x"  : 640,
-            "resolution_y"  : 480,
-            "frame"         : 100,
+            "resolution_x"  : 30,
+            "resolution_y"  : 30,
+            "frame"         : 1000,
             "color_mode"    : "BW",
             "fps"           : 30,
             
             "camera"        : "<name placeholder>",
-            "position"      : [0, 0, 0.3],
-            "rotation"      : [0, 0, 0],
-            
-            "output_folder" : "<output_blender placeholder>"
 
+            
+            "output_blender" : "<output_blender placeholder>"
+
+        }
+    ], 
+
+    "FPGA" : [
+        {
+            "type"                  : "GHDL",
+            "GHDL":[
+                {
+                    "makefile"      : "ImageSimFPGA/GHDL/Makefile",
+                    "tb_path"       : "source/VHDL/testbench",
+                    "src_path"      : "source/VHDL/source",
+                    "top"           : "test"
+                }
+            ],
+
+            "ModelSim":[
+                {
+                    "modelsim_path" : "/home/ropouillard/intelFPGA/20.1/modelsim_ase/bin/vsim",
+                    "args_path"     : "./source/args.txt",
+                    "tcl_path"      : "./source/run_cli.tcl",
+                    "src_path"      : "./source/VHDL/source/test.vhd",
+                    "tb_path"       : "./source/VHDL/testbench/test_tb.vhd"
+
+                }
+            ]
         }
     ]
 

@@ -1,0 +1,59 @@
+{
+    "Camera": [
+        {
+            "type"              : "camera",
+            "size"              : "30,30",
+            "camera_folder" :   "./Movie/p4/",
+            "target"            : ["FPGA"] 
+            
+
+
+        }
+    ],
+
+    "Blender": [
+        {
+            "input_path"    : "ImageGenerator/Blender/Environment/Square4Camera9Person.blend",
+
+            "resolution_x"  : 30,
+            "resolution_y"  : 30,
+            "frame"         : 1000,
+            "color_mode"    : "BW",
+            "fps"           : 30,
+            
+            "camera"        : "",
+
+            
+            "output_blender" : "./Movie/p4/"
+
+        }
+    ], 
+
+    "FPGA" : [
+        {
+            "type"                  : "GHDL",
+            "GHDL":[
+                {
+                    "makefile"      : "ImageSimFPGA/GHDL/Makefile",
+                    "tb_path"       : "source/VHDL/testbench",
+                    "src_path"      : "source/VHDL/source",
+                    "top"           : "test"
+                }
+            ],
+
+            "ModelSim":[
+                {
+                    "modelsim_path" : "/home/ropouillard/intelFPGA/20.1/modelsim_ase/bin/vsim",
+                    "args_path"     : "./source/args.txt",
+                    "tcl_path"      : "./source/run_cli.tcl",
+                    "src_path"      : "./source/VHDL/source/test.vhd",
+                    "tb_path"       : "./source/VHDL/testbench/test_tb.vhd"
+
+                }
+            ]
+        }
+    ]
+
+    
+
+}
