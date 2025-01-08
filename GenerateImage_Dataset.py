@@ -33,37 +33,37 @@ def main(args):
     log.debug(scenario['rotations'])
     log.debug(scenario['positions'])
     log.debug(scenario['exclude'])
-    generate_json(args)
-
-    log.debug(args.scenario)
-    log.debug(args.scenario.upper())
-    scenario = Scenario[args.scenario.upper()].value
-
-    log.debug(scenario['rotations'])
-    log.debug(scenario['positions'])
-    log.debug(scenario['exclude'])
     
     _,params, _ = json_load('Camera.json', scenario)
     params["exclude"] = scenario["exclude"]
     params["GPU"] = args.gpu
+    
     import networkx as nx
 
-    G = nx.Graph(params["keypoints_graph"])
-    params["keypoints_path"] = {}
-    for key, value in params['positions'].items():
-        params["keypoints_path"][key] = []
-        for position in value:
-            # Concat list
-            params["keypoints_path"][key] += nx.shortest_path(G,source=position[0],target=position[1])
- 
+    log.info(f"LEN {len(scenario['positions'])}")
 
-    log.debug(f"params: {params}")
-    log.info(params["keypoints_path"])  
+    for i in range(len(scenario['positions'])):
+        scenario['positions'][f'Actor.{i+1:03d}'] = [[9,10]]
+        if i > 0:
+            scenario['positions'][f'Actor.{i:03d}'] = [[9,9]]
+        G = nx.Graph(params["keypoints_graph"])
+        params["keypoints_path"] = {}
+        for key, value in params['positions'].items():
+            params["keypoints_path"][key] = []
+            for position in value:
+                # Concat list
+                params["keypoints_path"][key] += nx.shortest_path(G,source=position[0],target=position[1])
+    
 
-    blender_render = Environment(input_environment,params, log_level=log.INFO)
-    log.info(args.occultation)
+        log.debug(f"params: {params}")
+        log.info(f"Keypoints Path: {params['keypoints_path']}")  
+        #log.info(f"Occultation: {args.occultation}")
+        params["output_folder"] = f"{args.output_blender}Actor.{i+1:03d}"
+        log.info(f"Output Folder: {params['output_folder']}")
+        blender_render = Environment(input_environment,params, log_level=log.INFO)
+        
 
-    blender_render.generate_all(distance = np.zeros(blender_render.scene.frame_end), ocultation = args.occultation)
+        blender_render.generate_all(distance = np.zeros(blender_render.scene.frame_end), ocultation = args.occultation)
     #blender_render.generate_all_frames('Caméra.004', output_folder = args.output_blender, ocultation = args.occultation)
     #blender_render.generate_all_frames('Caméra.003', output_folder = args.output_blender, ocultation = args.occultation)
 #

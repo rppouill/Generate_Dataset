@@ -28,7 +28,7 @@ class Scenario(Enum):
         "positions": {  "Actor.001": [[9,9]],
                         "Actor.002": [[9,9]],
                         "Actor.003": [[9,9]],
-                        "Actor.004": [[9,10]],
+                        "Actor.004": [[9,9]],
                         "Actor.005": [[9,9]],
 
                     }, 
