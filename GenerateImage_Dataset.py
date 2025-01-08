@@ -58,8 +58,8 @@ def main(args):
         log.debug(f"params: {params}")
         log.info(f"Keypoints Path: {params['keypoints_path']}")  
         #log.info(f"Occultation: {args.occultation}")
-        params["output_folder"] = f"{args.output_blender}Actor.{i+1:03d}"
-        log.info(f"Output Folder: {params['output_folder']}")
+        params["output_blender"] = f"{args.output_blender}Actor.{i+1:03d}"
+        log.info(f"Output Blender: {params['output_blender']}")
         blender_render = Environment(input_environment,params, log_level=log.INFO)
         
 

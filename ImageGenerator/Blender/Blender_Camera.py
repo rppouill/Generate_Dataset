@@ -34,7 +34,7 @@ class Blender_Camera():
     # @param visible_objects: list of visible objects
     # @description: Compute the distance between the camera and the nearest object
     def _compute_distance(self,frame, distance, visible_objects):
-        buff_distance = np.Infinity
+        buff_distance = np.inf
         log.debug(f"{self.camera.name} visible_objects: {visible_objects}")
         for visible_object in visible_objects:
             log.debug(f"Visible object: {visible_object}")
