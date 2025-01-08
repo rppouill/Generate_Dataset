@@ -1,0 +1,9 @@
+bpy==3.6.0
+coloredlogs==15.0.1
+colorlog==6.7.0
+mathutils==3.3.0
+matplotlib==3.8.2
+networkx==3.2.1
+numpy==2.2.1
+opencv_python==4.8.1.78
+tqdm==4.66.1

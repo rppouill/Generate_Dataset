@@ -6,24 +6,9 @@ import numpy as np
 from utils import *
 import logging as log
 import coloredlogs
-import logging as log
-import coloredlogs
 import importlib
 
 
-
-def redirect_print():
-    import sys
-    logfile = os.path.join('logfile.log')
-    open(logfile, 'a').close()
-    old = os.dup(sys.stdout.fileno())
-    sys.stdout.flush()
-    os.close(sys.stdout.fileno())
-    fd = os.open(logfile, os.O_WRONLY)
-
-    return logfile,old,fd
-
-def main(args):    
 
 def redirect_print():
     import sys
