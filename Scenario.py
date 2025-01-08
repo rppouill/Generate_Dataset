@@ -25,7 +25,11 @@ class Scenario(Enum):
                              10: [1]
                         },
         
-        "positions": {  "Actor.004": [[10,9]]
+        "positions": {  "Actor.001": [[1,1]],
+                        "Actor.002": [[1,1]],
+                        "Actor.003": [[1,1]],
+                        "Actor.004": [[10,9]],
+                        "Actor.005": [[1,1]],
 
                     }, 
         "scale"    : {  "Actor.003": 0.6605, 
