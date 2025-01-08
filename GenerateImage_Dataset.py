@@ -1,7 +1,11 @@
 from ImageGenerator.Blender.Environment import Environment
 from Scenario import Scenario
+from ImageGenerator.Blender.Environment import Environment
+from Scenario import Scenario
 import numpy as np
 from utils import *
+import logging as log
+import coloredlogs
 import logging as log
 import coloredlogs
 import importlib
@@ -20,8 +24,30 @@ def redirect_print():
     return logfile,old,fd
 
 def main(args):    
+
+def redirect_print():
+    import sys
+    logfile = os.path.join('logfile.log')
+    open(logfile, 'a').close()
+    old = os.dup(sys.stdout.fileno())
+    sys.stdout.flush()
+    os.close(sys.stdout.fileno())
+    fd = os.open(logfile, os.O_WRONLY)
+
+    return logfile,old,fd
+
+def main(args):    
     input_environment = args.input_blender
 
+    generate_json(args)
+
+    log.debug(args.scenario)
+    log.debug(args.scenario.upper())
+    scenario = Scenario[args.scenario.upper()].value
+
+    log.debug(scenario['rotations'])
+    log.debug(scenario['positions'])
+    log.debug(scenario['exclude'])
     generate_json(args)
 
     log.debug(args.scenario)
@@ -87,6 +113,7 @@ def viewer_Camera(path,folder):
 
 if __name__ == '__main__':
     logfile,old,fd = redirect_print()
+    logfile,old,fd = redirect_print()
 
     args = parser()
 
@@ -98,6 +125,10 @@ if __name__ == '__main__':
     coloredlogs.install(level=args.verbose, logger=logger)
 
     main(args)
+
+    os.close(fd)
+    os.dup(old)
+    os.close(old)
 
     os.close(fd)
     os.dup(old)

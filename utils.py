@@ -2,20 +2,24 @@ import re
 import os
 
 def generate_json(args):
+def generate_json(args):
     with open(args.json,'r') as f:
         template_json = f.read()
 
 
     values = {
         'camera_folder'  : os.path.join(args.output_blender),
+        'camera_folder'  : os.path.join(args.output_blender),
         'input_blender'  : args.input_blender,
 
+        'output_blender' : os.path.join(args.output_blender)
         'output_blender' : os.path.join(args.output_blender)
 
     }
 
     after_replace = re.sub('<(.+?) placeholder>', lambda match: values.get(match.group(1)), template_json)
 
+    with open(f'Camera.json','w') as f:
     with open(f'Camera.json','w') as f:
         f.write(after_replace)
 
