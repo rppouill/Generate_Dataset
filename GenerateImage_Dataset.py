@@ -63,8 +63,8 @@ def main(args):
     blender_render = Environment(input_environment,params, log_level=log.INFO)
     log.info(args.occultation)
 
-    blender_render.generate_all(distance = np.zeros(blender_render.scene.frame_end), ocultation = args.occultation)
-    #blender_render.generate_all_frames('Caméra.001', output_folder = args.output_blender, ocultation = args.occultation)
+    #blender_render.generate_all(distance = np.zeros(blender_render.scene.frame_end), ocultation = args.occultation)
+    blender_render.generate_all_frames('Caméra.004', output_folder = args.output_blender, ocultation = args.occultation)
     #blender_render.generate_all_frames('Caméra.003', output_folder = args.output_blender, ocultation = args.occultation)
 #
     #np.savetxt(os.path.join(args.output_blender,'Caméra.001.txt'),blender_render.distance['Caméra.001'])
@@ -98,8 +98,6 @@ def viewer_Camera(path,folder):
 
 if __name__ == '__main__':
     logfile,old,fd = redirect_print()
-    logfile,old,fd = redirect_print()
-
     args = parser()
 
     log.basicConfig(level=args.verbose)
@@ -110,10 +108,6 @@ if __name__ == '__main__':
     coloredlogs.install(level=args.verbose, logger=logger)
 
     main(args)
-
-    os.close(fd)
-    os.dup(old)
-    os.close(old)
 
     os.close(fd)
     os.dup(old)
