@@ -63,8 +63,8 @@ def main(args):
     blender_render = Environment(input_environment,params, log_level=log.INFO)
     log.info(args.occultation)
 
-    #blender_render.generate_all(distance = np.zeros(blender_render.scene.frame_end), ocultation = args.occultation)
-    blender_render.generate_all_frames('Caméra.004', output_folder = args.output_blender, ocultation = args.occultation)
+    blender_render.generate_all(distance = np.zeros(blender_render.scene.frame_end), ocultation = args.occultation)
+    #blender_render.generate_all_frames('Caméra.004', output_folder = args.output_blender, ocultation = args.occultation)
     #blender_render.generate_all_frames('Caméra.003', output_folder = args.output_blender, ocultation = args.occultation)
 #
     #np.savetxt(os.path.join(args.output_blender,'Caméra.001.txt'),blender_render.distance['Caméra.001'])
