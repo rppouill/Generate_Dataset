@@ -67,6 +67,8 @@ class Blender_Camera():
                                                 exclude= self.exclude)
             log.debug(f"visible_objects: {visible_objects}")
             log.debug(f"Len visible_objects: {len(visible_objects)}")
+        else:
+            visible_objects = [1]
 
         if len(visible_objects) > 0:
             bpy.context.scene.camera = self.camera
